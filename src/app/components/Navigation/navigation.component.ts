@@ -1,7 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
+	moduleId: module.id,
   selector: 'navbar',
-  template: `<h1>Navigation</h1>`,
+  templateUrl: `navigation.component.html`,
 })
-export class NavbarComponent  {}
+export class NavbarComponent{
+	private projectName:string;
+
+	constructor(){
+		this.projectName = 'Angular 2 Website';
+	}
+}
