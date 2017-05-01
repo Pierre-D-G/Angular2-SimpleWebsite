@@ -2,7 +2,7 @@
 Simple Website made with Angular 2
 
 
-## Made using the Angualr 2 Quickstart seed
+## Made using the Angular 2 Quickstart seed
 This is a website built using Angular 2.
 
 Contains three components-
@@ -17,4 +17,4 @@ Two Routes - Home and About
 
 npm install - To install dependancies
 
-npm start - to run the sever
+npm start - to run the server
